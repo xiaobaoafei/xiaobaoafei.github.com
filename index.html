@@ -1,10 +1,272 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>test title</title>
+    <title>大家好</title>
+    <link rel="shortcut icon" href="img/PCDD.ico" type="image/x-icon">
+    <link rel="icon" href="img/PCDD.ico" type="image/x-icon">
+    <link href="css/lrtk.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/project.css"/>
+    <link rel="stylesheet" type="text/css" href="css_wap/index.css"/>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <!-- 返回顶部 开始 -->
+    <script>
+        $(function() {
+            $(".btn_top").hide();
+            $(".btn_top").live("click",function(){
+                $('html, body').animate({scrollTop: 0},300);return false;
+            })
+            $(window).bind('scroll resize',function(){
+                if($(window).scrollTop()<=300){
+                    $(".btn_top").hide();
+                }else{
+                    $(".btn_top").show();
+                }
+            })
+        })
+    </script>
+    <!-- 返回顶部 结束 -->
+
+    <style>
+        #pc{
+            display: none;
+        }
+        #wap{
+            display: none;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </head>
 <body>
-hello 
+<div id="pc">
+    <!-- 代码 开始 -->
+    <div class="izl-rmenu">
+        <a class="cart"><div class="pic"></div></a>
+        <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
+    </div>
+    <a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=11117988&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a>
+    <!-- 代码 结束 -->
+    <div id="xm-banner">
+        <div id="logo">
+            <img src="imgs_pc/ylb_logo.png" class="navMore mobile">
+            <!--<img src="imgs_pc/logo0.jpg" width="236" height="52">-->
+        </div>
+        <div class="xm-right">
+
+            <div id="xm-zi" class="color-1">
+                <h1>已有超过1150000+玩家参与</h1>
+                <br>
+                <p>这么多人都在玩的游戏你还在等什么？还不赶快行动！</p>
+            </div>
+            <div id="xm-anniu1" >
+                <a href="http://www.pc28.gg/down/"><img src="imgs_pc/sy_xiazai_anniu.png"></a>
+            </div>
+        </div>
+        <div class="xm-left">
+            <div id="xm-ylb">
+                <img src="imgs_pc/shouji.png" >
+            </div>
+        </div>
+    </div>
+
+    <div id="zhanshi">
+        <div class="xm-left">
+            <div id="xm-zhanshi1">
+                <p class="biaoti1">界面展示</p>
+                <p>首页侧滑菜单<br>
+                    游戏房间<br>
+                    聊天室
+                </p>
+            </div>
+            <div id="xm-zs-anniu">
+                <a href="http://www.pc28.gg/down/"><img src="imgs_pc/sy_xiazai_anniu.png"></a>
+            </div>
+        </div>
+        <div class="xm-right">
+            <div id="yemian1">
+                <img src="imgs_pc/zhanshi-you.png" >
+            </div>
+        </div>
+    </div>
+    <div id="xm-main3">
+        <div id="xm-main3-zi">
+            <p class="btcolor">本平台游戏类型</p>
+        </div>
+
+        <div id="xm-m3-tu">
+            <div id="phone2">
+                <img src="imgs_pc/Phone2.png" >
+            </div>
+            <div id="chat1">
+                <p>闲着的时候，这两款小游戏一直以来就是我最爱的消遣，每天乐在其中，心跳刺激，真的很好玩，在这里向每一个好朋友鼎力推荐！！！
+                </p>
+                <p class="color-6">
+                    用户： 我就是我
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <p class="biaoti">“爱玩？？？就来PC蛋蛋！！！”</p>
+        <div class="div1">
+            <div class="sy-icon">
+                <img src="imgs_pc/xc_icon1.png"/>
+            </div>
+            <dl>
+                <dt class=" font-1">更丰富</dt>
+                <dd class="font-2">本平台不仅有目前最流行的游戏，并且更多游戏正在努力开发中，敬请期待！</dd>
+            </dl>
+        </div>
+        <div class="div1">
+            <div class="sy-icon">
+                <img src="imgs_pc/xc_icon2.png"/>
+            </div>
+            <dl>
+                <dt class=" font-1">更权威</dt>
+                <dd class="font-2">目前两款游戏的数据源分别国内国际官方的数据，保证数的准确性、权威性。</dd>
+            </dl>
+        </div>
+        <div class="div1">
+            <div class="sy-icon">
+                <img src="imgs_pc/xc_icon3.png"/>
+            </div>
+            <dl>
+                <dt class=" font-1">更及时</dt>
+                <dd class="font-2">目前两款游戏均采用超高速数据获取、顶级配置服务器，保证在第一时间为用户显示数据结果，更及时、更高效。</dd>
+            </dl>
+        </div>
+        <div class="div1">
+            <div class="sy-icon">
+                <img src="imgs_pc/xc_icon4.png"/>
+            </div>
+            <dl>
+                <dt class=" font-1">更懂你</dt>
+                <dd class="font-2">本平台所有游戏中高级房间，对参于度较高的用户，均安排有相应比例的惊喜回报，让您玩的更刺激、更尽兴！</dd>
+            </dl>
+        </div>
+    </div>
+    <div id="down">
+        <p class="biaoti">游戏下载</p>
+        <div id="down-ma">
+
+            <div id="anzhuo">
+            </div>
+            <div id="ios">
+
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <div id="ft-top">
+            <div id="ylb-lg"></div>
+            <div id="ylb-ft-z">
+                权威、公平、公正、好玩，就来PC蛋蛋！
+            </div>
+            <div id="ft-lx">
+                <p class="color-1 font-2">联系方式</p>
+                <ul class="color-1" >
+                    <li>
+                        <img src="imgs_pc/dizhi.png">
+                        <p>联系地址: 杭州揽众网络科技有限公司</p>
+                    </li>
+                    <li>
+                        <img src="imgs_pc/qq.png">
+                        <p>客服 QQ: 11117988</p>
+                    </li>
+                    <li>
+                        <img src="imgs_pc/weinxin.png">
+                        <p>客服微信: pc20888</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr align=center width=1200 color=#2f2f31 size=1 >
+        <div id="ft-bottom" class="color-3">
+            <!--<hr align=center width=1200 color=#2f2f31 size=1 >-->
+            Copyright © 杭州揽众网络科技有限公司   版权所有
+        </div>
+    </div>
+</div>
+<div id="wap">
+    <div class="mainall">
+        <div class="top">
+            <img src="imgs_wap/top_pcdd.png">
+        </div>
+        <div class="xiazai">
+            <div class="xiazai_l" id="xz_erweima">
+                <div class="xiazai_l_img"><img src="imgs_wap/img_diceng_fenxiang.png" height="120px" width="120px"></div>
+                <div class="xiazai_l_mes"><span>扫描二维码下载</span></div>
+
+            </div>
+            <div class="xiazai_l" id="xz_anniu">
+                <a href="http://www.pc28.gg/down/"><div class="xiazai_l_img"><img src="imgs_wap/img_xiazai_anniu.png" height="120" width="120"></div></a>
+                <div class="xiazai_l_mes"><span>点击按钮下载</span></div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="ddz_title_mes"><span class="tit">首页：</span>有游戏可以选择。</div>
+
+
+        <div class="sjimg"><img src="imgs_wap/sj1.png" height="291" width="142"></div>
+        <div class="ddz_title_mes"><span class="tit">充值：</span><span>包括支付宝、微信支付、银联支付。</span></div>
+        <div class="sjimg"><img src="imgs_wap/sj2.png" height="291" width="142"></div>
+        <div class="ddz_title_mes"><span class="tit">玩游戏：</span><span>高速服务器，玩的更尽兴。</span></div>
+        <div class="sjimg"><img src="imgs_wap/sj3.png" height="291" width="142"></div>
+        <div class="ddz_title_mes"><span class="tit">聊天：</span><span>自主开发聊天系统，想聊就聊。</span></div>
+        <div class="sjimg"><img src="imgs_wap/sj4.png" height="291" width="142"></div>
+        <div class="ddz_title_mes"><span class="tit">分享：</span><span>好游戏就要与好友一同分享。</span></div>
+        <div class="sjimg"><img src="imgs_wap/sj5.png" height="291" width="142"></div>
+        <div class="ddz_title_mes"><span class="tit">回报：</span><span>贴心回报，给你一路惊喜。</span></div>
+        <div class="sjimg"><img src="imgs_wap/sj6.png" height="291" width="142"></div>
+
+        <div class="kfqq">
+            <div class="kfqq_all"><div class="kfqqimg">
+                <img src="imgs_wap/qq.png" height="24" width="24"></div>
+                <div class="kfqqmes">
+                    客服  QQ: 11117988
+                </div>
+                <div class="kfqqimg">
+                    <img src="imgs_wap/weinxin.png" height="24" width="24"></div>
+                <div class="kfqqmes">
+                    客服微信: pc20888
+                </div>
+            </div>
+        </div>
+        <div class="cp">
+            Copyright © 杭州揽众网络科技有限公司
+        </div>
+
+
+    </div>
+</div>
 </body>
+<script>
+    var browser={
+        versions:function(){
+            var u = navigator.userAgent, app = navigator.appVersion;
+            var p = navigator.platform;
+            return {
+                win: u.indexOf("Win") != -1,//ios终端
+            };
+        }(),
+        language:(navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+    if(browser.versions.win == false){
+        $("#pc").hide();
+        $("#wap").show();
+    }else{
+        $("#pc").show();
+        $("#wap").hide();
+    }
+</script>
+<div style=" visibility:hidden;">
+    <a href="http://www.51.la/?18989575" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/18989575.asp" style="border:none" /></a>
+</div>
+<script>
+</script>
 </html>
